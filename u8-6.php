@@ -35,8 +35,10 @@
         echo '<table border="1" align="center" width="400">';
         echo '<tr><td colspan="2" align="center"><big>การส่งค่าอาร์กิวเมนต์</big></td></tr>';
         echo '<tr><td>การส่งแบบ : </td><td>';
-        echo '<input type="radio" name="type" value="1"> Pass by Value <br>';
-        echo '<input type="radio" name="type" value="2"> Pass by Reference <br>';
+        echo '<select name="type">';
+        echo '<option value="1"> Pass by Value </option>';
+        echo '<option value="2"> Pass by Reference </option>';
+        echo '</select>';
         echo '</td><tr>';
         echo '<tr><td colspan="2" align="center">';
         echo '<input type="submit" value=" OK " />';

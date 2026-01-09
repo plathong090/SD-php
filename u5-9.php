@@ -24,12 +24,13 @@
             </tr>
             <tr>
                 <td> Operator : </td>
-                <td align="'eft'">
-                    <input type="radio" name="operator" value="+"> + <br>
-                    <input type="radio" name="operator" value="-"> - <br>
-                    <input type="radio" name="operator" value="*"> * <br>
-                    <input type="radio" name="operator" value="/"> / <br>
-                    <input type="radio" name="operator" value="%"> % <br>
+                <td align="left">
+                    <select name="operator" > <!-- changed to use select dropdown -->
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                        <option value="%">%</option>
                 </td>
             <tr>
             <tr>

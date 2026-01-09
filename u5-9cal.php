@@ -19,13 +19,13 @@
 
     if ($operator == "+")
         echo ($number1 + $number2) . " </i> <br/>";
-    if ($operator == "-")
+    elseif ($operator == "-")
         echo ($number1 - $number2) . " </i> <br/>";
-    if ($operator == "*")
+    elseif ($operator == "*")
         echo ($number1 * $number2) . " </i> <br/>";
-    if ($operator == "/")
+    elseif ($operator == "/")
         echo ($number1 / $number2) . " </i> <br/>";
-    if ($operator == "%")
+    elseif ($operator == "%")
         echo ($number1 % $number2) . " </i> <br/>";
     ?>
 </body>
